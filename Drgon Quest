@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My RPG Game</title>
+    <meta name="description" content="Drgon Quest">
+    <link rel="stylesheet" href="styles/mian.css">
+    <meta property="og:title" content="My GRP Game">
+<meta property="og:description" content="Welcome to Drgon Quest">
+<meta property="og:image" content="http://1.html/images/hero.jpg">
+<meta property="og:url" content="http://1.html/index.html">
+<meta property="og:type" content="website">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+    <section itemscope itemtype="https://schema.org/Game">
+        <h1 itemprop="name">Dragon Quest</h1>
+        <p>Author: <span itemprop="author">he shu</span></p>
+        <p>Published Date: <span itemprop="datePublished">2025.03.13</span></p>
+        <p>Steam Rating: <span itemprop="aggregateRating">9.8</span></p>
+
+        <div class="container">
+            <h1>Welcome to Dragon Quest</h1>
+            <img src="image/hero.jpg" alt="game face"class="hero-image">
+            </div>
+            <p>Embark on an epic journey to save the kingdom!</p>
+            <video controls>
+            <source src="video/cat.mp4" type="video/mp4"class=cat.MP4-video >
+            </video>
+            
+            <h2>Game Features</h2>
+            <ul>
+                <li>Open world exploration</li>
+                <li>Customizable characters</li>
+                <li>Dynamic combat system</li>
+            </ul>
+    </section>
+
+
+</main>
+
+<footer>
+    <button class="button">开始游戏</button>
+</footer>
+</body>
+</html>
